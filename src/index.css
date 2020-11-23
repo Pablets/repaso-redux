@@ -1,4 +1,5 @@
 body {
+  box-sizing: border-box;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -16,3 +17,18 @@ h1{
   width: 100%;
   text-align: center;
 }
+
+.centrado{
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+}
+
+.centrado button{
+  display: inline-block;
+  width: calc(50% - 10px);
+  padding: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
